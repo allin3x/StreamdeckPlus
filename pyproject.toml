@@ -1,0 +1,11 @@
+[project]
+name = "streamdeck"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pulsectl>=24.12.0",
+    "pyusb>=1.3.1",
+    "usb>=0.0.83.dev0",
+]
